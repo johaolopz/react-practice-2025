@@ -12,8 +12,8 @@ function App() {
   const timelineGsap = gsap.timeline();
 
   secJump === finalNumber && (() => {
-    timelineGsap.to('h2', { y: -10 })
-      .to('h2', { y: 0, ease: 'bounce.out' });
+    timelineGsap.to(jumperElementRef.current, { y: -10 })
+      .to(jumperElementRef.current, { y: 0, ease: 'bounce.out' });
   })()
 
   useEffect(() => {
