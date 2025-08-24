@@ -1,4 +1,4 @@
-# This app was tested with node 16
+# This app was tested with node 20
 
 # Getting Started with Create React App
 
